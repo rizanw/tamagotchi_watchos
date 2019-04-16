@@ -11,11 +11,18 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-    @IBOutlet var healthLabel: WKInterfaceLabel!
-    @IBOutlet var hungerLabel: WKInterfaceLabel!
-    @IBOutlet var hygieneLabel: WKInterfaceLabel!
-    @IBOutlet var foodleftLabel: WKInterfaceLabel!
-
+    
+    //label menu
+    @IBOutlet weak var healthLabel: WKInterfaceLabel!
+    @IBOutlet weak var hungerLabel: WKInterfaceLabel!
+    @IBOutlet weak var hygieneLabel: WKInterfaceLabel!
+    //submenu
+    @IBOutlet weak var foodstockLabel: WKInterfaceLabel!
+    
+    //button menu
+    @IBOutlet weak var eatButton: WKInterfaceButton!
+    
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -25,6 +32,9 @@ class InterfaceController: WKInterfaceController {
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
+        
+        //init add
+        healthLabel.setText("100")
     }
     
     override func didDeactivate() {

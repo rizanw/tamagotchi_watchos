@@ -55,6 +55,13 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="eatButton" destination="Eri-CJ-OjH" id="679-Rm-6d8"/>
+                        <outlet property="foodstockLabel" destination="cLp-Qf-Pst" id="jFu-vo-5Ta"/>
+                        <outlet property="healthLabel" destination="um3-Cu-Rib" id="SdJ-NP-uBN"/>
+                        <outlet property="hungerLabel" destination="Yy6-lP-iXO" id="nde-Tc-LCL"/>
+                        <outlet property="hygieneLabel" destination="SSo-VU-Z7Q" id="kXE-fw-rV4"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="219.52173913043478" y="916.78571428571433"/>
