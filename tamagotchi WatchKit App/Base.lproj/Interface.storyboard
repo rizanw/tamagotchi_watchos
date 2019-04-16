@@ -9,12 +9,55 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--MainMenu-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="tamagotchi_WatchKit_App" customModuleProvider="target"/>
+                <controller identifier="MainMenu" hidesWhenLoading="NO" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="tamagotchi_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="bLL-Tu-eEn">
+                            <items>
+                                <label alignment="left" text="Health     :" id="OvJ-12-lLQ">
+                                    <color key="textColor" red="1" green="0.23604554003791611" blue="0.23189036502726279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                                <label alignment="left" text="0" id="um3-Cu-Rib"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="2hm-2I-JYJ">
+                            <items>
+                                <label alignment="left" text="Hunger   :" id="glS-6m-Yt9">
+                                    <color key="textColor" red="1" green="0.68698386189197369" blue="0.27448696397246009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                                <label alignment="left" text="0" id="Yy6-lP-iXO"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="V0N-nx-krp">
+                            <items>
+                                <label alignment="left" text="Hygiene  :" id="oed-jd-XIN">
+                                    <color key="textColor" red="0.42827856814495668" green="0.50052976923335202" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                                <label alignment="left" text="0" id="SSo-VU-Z7Q"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="xUN-q2-mzw"/>
+                        <group width="1" alignment="left" id="Ln2-vf-Dhm">
+                            <items>
+                                <label alignment="left" text="Food left :" id="ZrE-oo-AzM"/>
+                                <label alignment="left" text="0" id="cLp-Qf-Pst"/>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="ofq-Oi-S8s"/>
+                        <group width="1" height="46" alignment="left" id="fch-v2-fff">
+                            <items>
+                                <button width="40" alignment="center" title="🍽" id="Eri-CJ-OjH"/>
+                                <button width="40" alignment="center" title="🚿" id="rDI-fJ-dXK"/>
+                                <button width="40" alignment="center" title="🎮" id="25Y-Df-PiX"/>
+                                <button width="40" alignment="center" title="🏬" id="dgl-p4-ij1"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="917"/>
+            <point key="canvasLocation" x="219.52173913043478" y="916.78571428571433"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

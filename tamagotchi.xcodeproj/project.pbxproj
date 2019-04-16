@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A8358AC2265D57200E482C1 /* MainMenuInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8358AB2265D57200E482C1 /* MainMenuInterfaceController.swift */; };
 		3AC7B54A22645F230002886A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC7B54922645F230002886A /* AppDelegate.swift */; };
 		3AC7B54C22645F230002886A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC7B54B22645F230002886A /* ViewController.swift */; };
 		3AC7B54F22645F230002886A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC7B54D22645F230002886A /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A8358AB2265D57200E482C1 /* MainMenuInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuInterfaceController.swift; sourceTree = "<group>"; };
 		3AC7B54622645F230002886A /* tamagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC7B54922645F230002886A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC7B54B22645F230002886A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				3AC7B58822645F2A0002886A /* Assets.xcassets */,
 				3AC7B58A22645F2A0002886A /* Info.plist */,
 				3AC7B58B22645F2A0002886A /* PushNotificationPayload.apns */,
+				3A8358AB2265D57200E482C1 /* MainMenuInterfaceController.swift */,
 			);
 			path = "tamagotchi WatchKit Extension";
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AC7B58722645F290002886A /* NotificationController.swift in Sources */,
+				3A8358AC2265D57200E482C1 /* MainMenuInterfaceController.swift in Sources */,
 				3AC7B58522645F290002886A /* ExtensionDelegate.swift in Sources */,
 				3AC7B58322645F290002886A /* InterfaceController.swift in Sources */,
 			);
